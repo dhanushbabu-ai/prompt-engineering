@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Prompt Engineering Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🤖 AI Prompt Engineering Assistant</h1>
+
+        <p class="subtitle">
+            Turn simple ideas into better AI prompts
+        </p>
+
+        <label>Enter Your Prompt</label>
+
+        <textarea
+            id="userPrompt"
+            placeholder="Example: Explain Java inheritance"
+        ></textarea>
+
+        <button onclick="improvePrompt()">
+            ✨ Improve Prompt
+        </button>
+
+        <button class="clear-btn" onclick="clearPrompt()">
+            Clear
+        </button>
+
+        <h2>Improved Prompt</h2>
+
+        <div id="result">
+            Your improved prompt will appear here...
+        </div>
+
+        <button onclick="copyPrompt()">
+            📋 Copy Prompt
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
